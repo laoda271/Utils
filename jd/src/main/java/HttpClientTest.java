@@ -106,8 +106,8 @@ public class HttpClientTest {
         jsonObject.put("action","set");
         JSONObject dataJSON = new JSONObject();
 
-//        String path = "d:/u1.png";
-        String path = "d:/u2.jpg";
+        String path = "d:/u1.png";
+//        String path = "d:/u2.jpg";
         File file = new File(path);
         FileInputStream inputFile = new FileInputStream(file);
         byte[] buffer = new byte[(int) file.length()];
